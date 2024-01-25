@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  background-color: rgba(250, 60, 7, 0.979);
+  line-height: 39px;
+  padding: 10px;
+  text-align: center;
+}
+
+.body {
+  margin: 5px 5px 5px 5px;
+
+  background-color: white;
+  border-radius: 6%;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  padding: 1pc;
+  margin: 10px 10px 50px 10px;
+  font-family: old english text mt;
+}
+
+.name,
+.send,
+.email,
+.number,
+.message {
+  color: black;
+  padding: 3%;
+  width: 80%;
+  margin: 5%;
+}
+
+.contact {
+  padding: 2%;
+}
+
+.send {
+  border-radius: 4px;
+  border: none;
+  background-color: coral;
+  color: black;
+}
+
+@media screen and (orientation: landscape) {
+
+  .name,
+  .send,
+  .email,
+  .number,
+  .message {
+    margin: 2%;
+  }
+}
